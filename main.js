@@ -32,31 +32,31 @@ function showTable1() {
 
 		const CerealsCover_image = document.createElement("img");
 
-		CerealsCover_image.scr = Cereals.fields.images[0].url;
+		CerealsCover_image.src = Cereals.fields.cover_image[0].url;
 
 		CerealsContainer.appendChild(CerealsCover_image);
 
 		const CerealsTitle = document.createElement("h1")
 
-		CerealsTitle.innerHTML = Cereals.fields.Title;
+		CerealsTitle.innerHTML = Cereals.fields.title;
 
 		CerealsContainer.appendChild(CerealsTitle);
 
 		const CerealDescription  = document.createElement("p");
 
-		CerealsDescription.innerHTML = Cereals.fields.Description;
+		CerealsDescription.innerHTML = Cereals.fields.description;
 
 		CerealsDescription.appendChild(CerealsDescription);
 
 		const CerealsBrand  = document.createElement("p");
 
-		CerealsBrand.innerHTML = Cereals.fields.Brand;
+		CerealsBrand.innerHTML = Cereals.fields.brand;
 
 		CerealsBrand.appendChild(CerealsBrand);
 
 		const CerealsTags  = document.createElement("p");
 
-		CerealsTags.innerHTML = Cereals.fields.Tags;
+		CerealsTags.innerHTML = Cereals.fields.tags;
 
 		CerealsTags.appendChild(CerealsTags);
 	});
