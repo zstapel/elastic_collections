@@ -3,7 +3,7 @@ console.log("Hello Cereal");
 var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'key3CZWKwGJ23LuAr'}).base('app0e7F32drzROp2H');
 
-base("Table1").select({}).eachPage(gotPageOfTable1, gotAllTable1);
+base("Table 1").select({}).eachPage(gotPageOfTable1, gotAllTable1);
 const Table1 = [];
 function gotPageOfTable1(records, fetchNextPage) {
 	console.log("gotPageOfTable1()");
