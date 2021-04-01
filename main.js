@@ -24,7 +24,7 @@ function gotAllTable1(err) {
 function showTable1() {
 	console.log("showTable1()");
 
-	const Table1Container = document.querySelector
+	const CerealsContainer = document.querySelector
 	("#container");
 
 	Cereals.forEach((cereal) => {
