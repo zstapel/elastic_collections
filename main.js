@@ -38,13 +38,13 @@ function showTable1() {
 
 		const CerealsTitle = document.createElement("h1")
 
-		CerealsTitle.innerHTML = Cereals.fields.title;
+		CerealsTitle.innerHTML = Cereals.fields.Title;
 
 		CerealsContainer.appendChild(CerealsTitle);
 
 		const CerealDescription  = document.createElement("p");
 
-		CerealsDescription.innerHTML = Cereals.fields.description;
+		CerealsDescription.innerHTML = Cereals.fields.Description;
 
 		CerealsDescription.appendChild(CerealsDescription);
 
