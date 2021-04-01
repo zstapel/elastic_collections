@@ -24,11 +24,12 @@ function gotAllTable1(err) {
 function showTable1() {
 	console.log("showTable1()");
 
+	const Cereals = [];
 	const CerealsContainer = document.querySelector
 	("#container");
 
 	Cereals.forEach((cereal) => {
-		console.log("\nTable data fields:")
+		console.log("\nCereals data fields:")
 
 		const CerealsCover_image = document.createElement("img");
 
@@ -61,6 +62,8 @@ function showTable1() {
 		CerealsTags.appendChild(CerealsTags);
 	});
 }
+
+
 // function consoleLogTable1() {
 // 	console.log("consoleLogTable1()");
 // 	Table1.forEach((Table1) => {
