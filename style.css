@@ -1,0 +1,808 @@
+body {
+	background: #FFFF;
+	padding: 0px;
+	margin: 0px;
+}
+img {
+	width: 200px;
+
+
+
+}
+
+p {
+	width: 400px;
+
+	
+}
+
+h1 {
+	font-size: 30px;
+	display: none;
+
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 70px;
+}
+/*
+#rightSide {
+	position: absolute;
+	width: 603px;
+	height: 901px;
+	left: 837px;
+	top: -1px;
+	background: rgba(252, 109, 34, 0.68);
+}*/
+
+#wrap {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+
+.sticky {
+	height: 100vh;
+	width: 50vw;
+	overflow: hidden;
+	background-color: #FC6D22;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+}
+
+.cerealContainer img{
+/*  padding:16px 24px;
+  margin:8px;*/
+  mix-blend-mode: multiply;
+}
+
+
+#container {
+	height: 100vh;
+	width: 50vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr;
+
+
+
+}
+
+.bowl {
+	width: 75%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#reset {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 640px;
+	/*border:1px solid white;*/
+	padding: 6px 6px;
+	font-size: 25px;
+	background: #FF288F;
+	font-family: 'Alatsi', sans-serif;
+}
+
+#sorting {
+	width: 50px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+#healthy {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 5px;
+	right: 5px;
+	background: #F52911;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#honey {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 36px;
+	right: 5px;
+	background: #FFDB01;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#chocolate {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 67px;
+	right: 5px;
+	background: #4069FF;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#special {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 98px;
+	right: 5px;
+	background: #74A7FF;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#classic {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 129px;
+	right: 5px;
+	background: #09B82E;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#fruity {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 160px;
+	right: 5px;
+	background: #66E1AE;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#peanut_butter {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 191px;
+	right: 5px;
+	background: #9F49F3;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#cinnamon {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 222px;
+	right: 5px;
+	background: #FF8A00;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#nut {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 253px;
+	right: 5px;
+	background: #FF3C8E;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#general_mills {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 284px;
+	right: 5px;
+	background: #009AE7;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#kellogs {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 315px;
+	right: 5px;
+	background: #DB242E;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#quaker {
+	padding: 6px 6px;
+  margin:5px;
+  position: absolute;
+	top: 346px;
+	right: 5px;
+	background: #1364B9;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 14px;
+}
+
+#menu {
+	
+	background: #E5E5E5;
+}
+
+.a {
+	top: 55px;
+	left: 161px;
+}
+
+.b {
+	top: 65px;
+	left: 170px;
+}
+
+.c {
+	top: 120px;
+	left: 210px;
+}
+
+.d {
+	top: 90px;
+	left: 90px;
+}
+
+.e {
+	top: 67px;
+	left: 367px;
+}
+
+.f {
+	top: 20px;
+	left: 430px;
+}
+
+.g {
+	top: 40px;
+	left: 250px;
+}
+
+.h {
+	top: 45px;
+	left: 270px;
+}
+
+.i {
+	top: 34px;
+	left: 40px;
+}
+
+.j {
+	top: 5px;
+	left: 76px;
+}
+
+.k {
+	top: 27px;
+	left: 167px;
+}
+
+.l {
+	top: 46px;
+	left: 78px;
+}
+
+.m {
+	top: 60px;
+	left: 249px;
+}
+
+.n {
+	top: 34px;
+	left: 345px;
+}
+
+.o {
+	top: 3px;
+	left: 275px;
+}
+
+.p {
+	top: 14px;
+	left: 239px;
+}
+
+.q {
+	top: 100px;
+	left: 354px;
+}
+
+.r {
+	top: 90px;
+	left: 430px;
+}
+
+.s {
+	top: 50px;
+	left: 290px;
+}
+
+.t {
+	top: 30px;
+	left: 390px;
+}
+
+.u {
+	top: 26px;
+	left: 135px;
+}
+
+.v {
+	top: 45px;
+	left: 376px;
+}
+
+.w {
+	top: 12px;
+	left: 301px;
+}
+
+.x {
+	top: 7px;
+	left: 396px;
+}
+
+.y {
+	top: 12px;
+	left: 440px;
+}
+
+.z {
+	top: 100px;
+	left: 130px;
+}
+
+.a1 {
+	top: 15px;
+	left: 123px;
+}
+.a2 {
+	top: 3px;
+	left: 151px;
+}
+.a3 {
+	top: 4px;
+	left: 361px;
+}
+.a4 {
+	top: 105px;
+	left: 276px;
+}
+.a5 {
+	top: 75px;
+	left: 311px;
+}
+
+.e1 {
+	top: 67px;
+	left: 200px;
+}
+.e2 {
+	top: 7px;
+	left: 267px;
+}
+.e3 {
+	top: 87px;
+	left: 49px;
+}
+.e4 {
+	top: 47px;
+	left: 300px;
+}
+.e5 {
+	top: 0px;
+	left: 197px;
+}
+
+.i1 {
+	top: 44px;
+	left: 210px;
+}
+.i2 {
+	top: 84px;
+	left: 240px;
+}
+.i3 {
+	top: 64px;
+	left: 400px;
+}
+.i4 {
+	top: 89px;
+	left: 180px;
+}
+.i5 {
+	top: 64px;
+	left: 120px;
+}
+
+.o1 {
+	top: 0px;
+	left: 375px;
+}
+.o2 {
+	top: 30px;
+	left: 320px;
+}
+.o3 {
+	top: 98px;
+	left: 315px;
+}
+.o4 {
+	top: 50px;
+	left: 475px;
+}
+.o5 {
+	top: 78px;
+	left: 275px;
+}
+
+.u1 {
+	top: 66px;
+	left: 435px;
+}
+.u2 {
+	top: 96px;
+	left: 155px;
+}
+.u3 {
+	top: 6px;
+	left: 335px;
+}
+.u4 {
+	top: 76px;
+	left: 335px;
+}
+.u5 {
+	top: 96px;
+	left: 210px;
+}
+
+.b1 {
+	top: 25px;
+	left: 70px;
+}
+.b2 {
+	top: 95px;
+	left: 460px;
+}
+.b3 {
+	top: 25px;
+	left: 210px;
+}
+
+.c1 {
+	top: 50px;
+	left: 410px;
+}
+.c2 {
+	top: 50px;
+	left: 330px;
+}
+.c3 {
+	top: 60px;
+	left: 50px;
+}
+
+.d1 {
+	top: 70px;
+	left: 290px;
+}
+.d2 {
+	top: 60px;
+	left: 225px;
+}
+.d3 {
+	top: 34px;
+	left: 100px;
+}
+
+.f1 {
+	top: 70px;
+	left: 130px;
+}
+.f2 {
+	top: 110px;
+	left: 390px;
+}
+.f3 {
+	top: 5px;
+	left: 130px;
+}
+
+.g1 {
+	top: 0px;
+	left: 245px;
+}
+.g2 {
+	top: 90px;
+	left: 390px;
+}
+.g3 {
+	top: 40px;
+	left: 450px;
+}
+
+.h1 {
+	top: 35px;
+	left: 290px;
+}
+.h2 {
+	top: 75px;
+	left: 70px;
+}
+.h3 {
+	top: 25px;
+	left: 370px;
+}
+
+.j1 {
+	top: 15px;
+	left: 106px;
+}
+.j2 {
+	top: 25px;
+	left: 186px;
+}
+.j3 {
+	top: 5px;
+	left: 206px;
+}
+
+.k1 {
+	top: 87px;
+	left: 407px;
+}
+.k2 {
+	top: 64px;
+	left: 143px;
+}
+.k3 {
+	top: 107px;
+	left: 247px;
+}
+
+.l1 {
+	top: 66px;
+	left: 378px;
+}
+.l2 {
+	top: 46px;
+	left: 178px;
+}
+.l3 {
+	top: 36px;
+	left: 408px;
+}
+.l4 {
+	top: 26px;
+	left: 278px;
+}
+.l5 {
+	top: 96px;
+	left: 108px;
+}
+
+.m1 {
+	top: 70px;
+	left: 99px;
+}
+.m2 {
+	top: 110px;
+	left: 299px;
+}
+.m3 {
+	top: 110px;
+	left: 149px;
+}
+.m4 {
+	top: 100px;
+	left: 179px;
+}
+.m5 {
+	top: 80px;
+	left: 219px;
+}
+
+.n1 {
+	top: 79px;
+	left: 375px;
+}
+.n2 {
+	top: 4px;
+	left: 95px;
+}
+.n3 {
+	top: 0px;
+	left: 165px;
+}
+
+.p1 {
+	top: 35px;
+	left: 230px;
+}
+.p2 {
+	top: 0px;
+	left: 227px;
+}
+.p3 {
+	top: -20px;
+	left: 259px;
+}
+.p4 {
+	top: 114px;
+	left: 369px;
+}
+.p5 {
+	top: 94px;
+	left: 263px;
+}
+
+.q1 {
+	top: 49px;
+	left: 124px;
+}
+.q2 {
+	top: 56px;
+	left: 354px;
+}
+
+.r1 {
+	top: -18px;
+	left: 360px;
+}
+.r2 {
+	top: 110px;
+	left: 330px;
+}
+.r3 {
+	top: 60px;
+	left: 320px;
+}
+
+.s1 {
+	top: -10px;
+	left: 390px;
+}
+.s2 {
+	top: 94px;
+	left: 290px;
+}
+.s3 {
+	top: 50px;
+	left: 100px;
+}
+.s4 {
+	top: -4px;
+	left: 300px;
+}
+.s5 {
+	top: 5px;
+	left: 64px;
+}
+
+.t1 {
+	top: -7px;
+	left: 120px;
+}
+.t2 {
+	top: 70px;
+	left: 190px;
+}
+.t3 {
+	top: 80px;
+	left: 145px;
+}
+.t4 {
+	top: 40px;
+	left: 150px;
+}
+.t5 {
+	top: 86px;
+	left: 360px;
+}
+
+.v1 {
+	top: -15px;
+	left: 336px;
+}
+.v2 {
+	top: 43px;
+	left: 190px;
+}
+
+.w1 {
+	top: -5px;
+	left: 180px;
+}
+.w2 {
+	top: -15px;
+	left: 140px;
+}
+.w3 {
+	top: -10px;
+	left: 211px;
+}
+
+.x1 {
+	top: 98px;
+	left: 374px;
+}
+.x2 {
+	top: 103px;
+	left: 230px;
+}
+
+.y1 {
+	top: 42px;
+	left: 430px;
+}
+.y2 {
+	top: -7px;
+	left: 320px;
+}
+.y3 {
+	top: 82px;
+	left: 250px;
+}
+.y4 {
+	top: -5px;
+	left: 415px;
+}
+.y5 {
+	top: -16px;
+	left: 285px;
+}
+
+.z1 {
+	top: 70px;
+	left: 420px;
+}
+.z2 {
+	top: 20px;
+	left: 350px;
+}
+.z3 {
+	top: 95px;
+	left: 335px;
+}
+h3 {
+	position: absolute;
+	font-family: 'Alatsi', sans-serif;
+	
+}
+
+#letters {
+	height: 160px;
+	/*background: #FFFF;*/
+	width: 75%;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    display: none;
+
+}
+
+#slogan {
+	margin-top: 80%;
+ 	margin-left: 15%;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 20px;
+    width: 75%;
+}

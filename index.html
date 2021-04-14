@@ -1,13 +1,167 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cereal</title>
+	<title>Cereals</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" contents="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
-	<h1>Cereal</h1>
+	<div id="wrap">
+	<div id="container">
+		<h2>Cereals</h2>
+	</div>
+	<div class="sticky">
+		<div id="rightSide"></div>
+		<img class="bowl" src="img/bowl.png">	
+		<div id="reset">Reset</div>
+		<p id="slogan"></p>
+		<div id="menu">
+			<div id="healthy">Healthy</div>
+			<div id="honey">Honey</div>
+			<div id="chocolate">Chocolate</div>
+			<div id="special">Special</div>
+			<div id="classic">Classic</div>
+			<div id="fruity">Fruity</div>
+			<div id="peanut_butter">Peanut Butter</div>
+			<div id="cinnamon">Cinnamon</div>
+			<div id="nut">Nut</div>
+			<div id="general_mills">General Mills</div>
+			<div id="kellogs">Kellog's</div>
+			<div id="quaker">Quaker</div>
+		</div>
+		<div id="letters">
+			<h3 class="a">a</h3>
+			<h3 class="b">b</h3>
+			<h3 class="c">c</h3>
+			<h3 class="d">d</h3>
+			<h3 class="e">e</h3>
+			<h3 class="f">f</h3>
+			<h3 class="g">g</h3>
+			<h3 class="h">h</h3>
+			<h3 class="i">i</h3>
+			<h3 class="j">j</h3>
+			<h3 class="k">k</h3>
+			<h3 class="l">l</h3>
+			<h3 class="m">m</h3>
+			<h3 class="n">n</h3>
+			<h3 class="o">o</h3>
+			<h3 class="p">p</h3>
+			<h3 class="q">q</h3>
+			<h3 class="r">r</h3>
+			<h3 class="s">s</h3>
+			<h3 class="t">t</h3>
+			<h3 class="u">u</h3>
+			<h3 class="v">v</h3>
+			<h3 class="w">w</h3>
+			<h3 class="x">x</h3>
+			<h3 class="y">y</h3>
+			<h3 class="z">z</h3>
+			<h3 class="a1">a</h3>
+			<h3 class="a2">a</h3>
+			<h3 class="a3">a</h3>
+			<h3 class="a4">a</h3>
+			<h3 class="a5">a</h3>
+			<h3 class="e1">e</h3>
+			<h3 class="e2">e</h3>
+			<h3 class="e3">e</h3>
+			<h3 class="e4">e</h3>
+			<h3 class="e5">e</h3>
+			<h3 class="i1">i</h3>
+			<h3 class="i2">i</h3>
+			<h3 class="i3">i</h3>
+			<h3 class="i4">i</h3>
+			<h3 class="i5">i</h3>
+			<h3 class="o1">o</h3>
+			<h3 class="o2">o</h3>
+			<h3 class="o3">o</h3>
+			<h3 class="o4">o</h3>
+			<h3 class="o5">o</h3>
+			<h3 class="u1">u</h3>
+			<h3 class="u2">u</h3>
+			<h3 class="u3">u</h3>
+			<h3 class="u4">u</h3>
+			<h3 class="u5">u</h3>
+			<h3 class="b1">b</h3>
+			<h3 class="b2">b</h3>
+			<h3 class="b3">b</h3>
+			<h3 class="c1">c</h3>
+			<h3 class="c2">c</h3>
+			<h3 class="c3">c</h3>
+			<h3 class="d1">d</h3>
+			<h3 class="d2">d</h3>
+			<h3 class="d3">d</h3>
+			<h3 class="f1">f</h3>
+			<h3 class="f2">f</h3>
+			<h3 class="f3">f</h3>
+			<h3 class="g1">g</h3>
+			<h3 class="g2">g</h3>
+			<h3 class="g3">g</h3>
+			<h3 class="h1">h</h3>
+			<h3 class="h2">h</h3>
+			<h3 class="h3">h</h3>
+			<h3 class="j1">j</h3>
+			<h3 class="j2">j</h3>
+			<h3 class="j3">j</h3>
+			<h3 class="k1">k</h3>
+			<h3 class="k2">k</h3>
+			<h3 class="k3">k</h3>
+			<h3 class="l1">l</h3>
+			<h3 class="l2">l</h3>
+			<h3 class="l3">l</h3>
+			<h3 class="l4">l</h3>
+			<h3 class="l5">l</h3>
+			<h3 class="m1">m</h3>
+			<h3 class="m2">m</h3>
+			<h3 class="m3">m</h3>
+			<h3 class="m4">m</h3>
+			<h3 class="m5">m</h3>
+			<h3 class="n1">n</h3>
+			<h3 class="n2">n</h3>
+			<h3 class="n3">n</h3>
+			<h3 class="p1">p</h3>
+			<h3 class="p2">p</h3>
+			<h3 class="p3">p</h3>
+			<h3 class="p4">p</h3>
+			<h3 class="p5">p</h3>
+			<h3 class="q1">q</h3>
+			<h3 class="q2">q</h3>
+			<h3 class="r1">r</h3>
+			<h3 class="r2">r</h3>
+			<h3 class="r3">r</h3>
+			<h3 class="s1">s</h3>
+			<h3 class="s2">s</h3>
+			<h3 class="s3">s</h3>
+			<h3 class="s4">s</h3>
+			<h3 class="s5">s</h3>
+			<h3 class="t1">t</h3>
+			<h3 class="t2">t</h3>
+			<h3 class="t3">t</h3>
+			<h3 class="t4">t</h3>
+			<h3 class="t5">t</h3>
+			<h3 class="v1">v</h3>
+			<h3 class="v2">v</h3>
+			<h3 class="w1">w</h3>
+			<h3 class="w2">w</h3>
+			<h3 class="w3">w</h3>
+			<h3 class="x1">x</h3>
+			<h3 class="x2">x</h3>
+			<h3 class="y1">y</h3>
+			<h3 class="y2">y</h3>
+			<h3 class="y3">y</h3>
+			<h3 class="y4">y</h3>
+			<h3 class="y5">y</h3>
+			<h3 class="z1">z</h3>
+			<h3 class="z2">z</h3>
+			<h3 class="z3">z</h3>
+		</div>
+	</div>
+	</div>
 	<script src="lib/airtable.browser.js"></script>
 	<script defer src="main.js"></script>
 </body>
