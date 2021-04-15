@@ -78,8 +78,8 @@ h2 {
 	width: 75%;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 52%;
+    transform: translate(-50%, -52%);
 
 }
 
@@ -109,128 +109,128 @@ h2 {
 	right: 5px;
 	background: #F52911;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #honey {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 36px;
+	top: 40px;
 	right: 5px;
 	background: #FFDB01;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #chocolate {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 67px;
+	top: 74px;
 	right: 5px;
 	background: #4069FF;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #special {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 98px;
+	top: 108px;
 	right: 5px;
 	background: #74A7FF;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #classic {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 129px;
+	top: 142px;
 	right: 5px;
 	background: #09B82E;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #fruity {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 160px;
+	top: 176px;
 	right: 5px;
 	background: #66E1AE;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #peanut_butter {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 191px;
+	top: 210px;
 	right: 5px;
 	background: #9F49F3;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #cinnamon {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 222px;
+	top: 245px;
 	right: 5px;
 	background: #FF8A00;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #nut {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 253px;
+	top: 280px;
 	right: 5px;
 	background: #FF3C8E;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #general_mills {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 284px;
+	top: 315px;
 	right: 5px;
 	background: #009AE7;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #kellogs {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 315px;
+	top: 349px;
 	right: 5px;
 	background: #DB242E;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #quaker {
 	padding: 6px 6px;
   margin:5px;
   position: absolute;
-	top: 346px;
+	top: 383px;
 	right: 5px;
 	background: #1364B9;
 	font-family: 'Alatsi', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #menu {
@@ -784,7 +784,17 @@ h2 {
 h3 {
 	position: absolute;
 	font-family: 'Alatsi', sans-serif;
-	
+
+}
+
+
+.multicolor {
+	background-image: linear-gradient(to left, #9F49F3, #FF3C8E, #4069FF, #66E1AE, #09B82E, #FFDB01, #FF8A00, #F52911);
+	  -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+
 }
 
 #letters {
@@ -800,7 +810,7 @@ h3 {
 }
 
 #slogan {
-	margin-top: 80%;
+	margin-top: 75%;
  	margin-left: 15%;
     font-family: 'Alatsi', sans-serif;
     font-size: 20px;
